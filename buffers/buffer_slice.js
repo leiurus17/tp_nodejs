@@ -9,3 +9,11 @@ console.log("buffer2 content: " + buffer2.toString());
 //actually, no need to use .toString() because buffer2 is not really (???) a buffer but a string.
 //because we did not invoke the new Buffer();
 console.log("buffer2 content: " + buffer2);
+
+var buffer3 = "Hello Buffer!";
+
+console.log(Buffer.isBuffer(buffer1));
+console.log(Buffer.isBuffer(buffer2));
+console.log(Buffer.isBuffer(buffer3));
+
+//I am wrong. buffer2 is a buffer.
