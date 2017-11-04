@@ -12,8 +12,8 @@ console.log("buffer2 content: " + buffer2);
 
 var buffer3 = "Hello Buffer!";
 
-console.log(Buffer.isBuffer(buffer1));
-console.log(Buffer.isBuffer(buffer2));
-console.log(Buffer.isBuffer(buffer3));
+console.log(Buffer.isBuffer(buffer1)); // true
+console.log(Buffer.isBuffer(buffer2)); // true
+console.log(Buffer.isBuffer(buffer3)); // false
 
 //I am wrong. buffer2 is a buffer.
