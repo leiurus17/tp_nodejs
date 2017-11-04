@@ -12,3 +12,6 @@ console.log(buf.toJSON());
 var json = buf.toJSON(buf);
 
 console.log(json);
+
+console.log(json.toString());
+console.log(buf.toString());
