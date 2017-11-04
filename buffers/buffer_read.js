@@ -12,3 +12,4 @@ console.log(buf.toString('ascii', 0, 5));   // outputs: abcde
 console.log(buf.toString('utf-8', 0, 5));   // outputs: abcde
 console.log(buf.toString('utf8', 0, 5));    // outputs: abcde
 console.log(buf.toString(undefined, 0, 5)); // encoding defaults to 'utf8', outputs abcde
+
